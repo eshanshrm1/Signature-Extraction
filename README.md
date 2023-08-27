@@ -9,12 +9,12 @@ The code defines a Python function named extract_signatures that processes an in
 
 The extract_signatures function performs the following steps:
 
-Load the input image and convert it to grayscale.
-Apply Gaussian blur to reduce noise.
-Perform edge detection using Canny.
-Find contours in the edge-detected image.
-Iterate over the contours and filter out small ones.
-Extract signature regions based on the bounding rectangles of the contours.
-Draw green rectangles around the extracted signature regions in the original image.
-Save the modified image with rectangles drawn (for visualization).
-Return the list of extracted signature regions.
+1. Load the input image and convert it to grayscale.
+2. Apply Gaussian blur to reduce noise.
+3. Perform edge detection using Canny.
+4. Find contours in the edge-detected image.
+5. Iterate over the contours and filter out small ones.
+6. Extract signature regions based on the bounding rectangles of the contours.
+7. Draw green rectangles around the extracted signature regions in the original image.
+8. Save the modified image with rectangles drawn (for visualization).
+9. Return the list of extracted signature regions.
